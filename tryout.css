@@ -1,0 +1,187 @@
+body{
+    margin: 30px;
+}
+
+h3{
+    margin: 15px;
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.cont{
+    background-color: white;
+    display: grid;
+    grid-gap: 0.3em;
+    grid-auto-rows: (150px, auto);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    'box1 box1'
+    'box2 box2'
+    'box3 box4'
+    'box5 box5'
+}
+
+.box1{
+    grid-area: box1;
+   
+    background-color: black;
+}
+
+.box2{
+    grid-area: box2;
+    height: 250px;
+}
+
+.box3{
+    grid-area: box3;
+    width: 1000px;
+}
+
+.box4{
+    grid-area: box4;
+    width: 300px;
+}
+
+.box5{
+    grid-area: box5;
+    
+}
+
+.tap{
+    background-color: black;
+  
+}
+
+.topper{
+    margin: 5px; 
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-rows: 100px;
+    grid-gap: 0.5em; 
+    border: 1px solid black;
+}
+
+
+.wrapper{
+    margin: 5px; 
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 100px;
+    grid-gap: 1em; 
+    border: 1px solid black;
+}
+
+.wrapper > div{
+    border:#222 1px solid;
+    background-color: whitesmoke;
+   
+}
+
+.heading{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1em;
+    cursor: pointer;
+    padding: 15px;
+    background-color: black;
+    color: whitesmoke;
+   
+}
+
+.heading > div{
+    background-color: blue;
+    text-align: center;
+    padding: 0px;
+    margin: 5px;
+    padding-top: 7px;
+    height: 20px;
+}
+
+.services:hover{
+    background-color: red;
+}
+
+
+ul{
+    background-color: gray;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+ul li{
+    background-color: grey;
+    width: 200px;
+    height: 30px;
+    opacity: .7;
+    text-align: center;
+    line-height: 40px;
+    display: none;
+    padding: 5px;
+}
+
+ul li a{
+    color: blue;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: white;
+}
+
+.services:hover ul li{
+    display: block;
+}
+
+.countries:hover{
+    background-color: red;
+}
+
+.countries:hover ul li{
+    display: block;
+}
+
+.geners:hover{
+    background-color: red;
+}
+
+.geners:hover ul li{
+    display: block;
+}
+
+.about:hover{
+    background-color: red;
+}
+
+.about:hover ul li{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.news{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-auto-rows: (100px, auto);
+    grid-gap: 1em;
+    margin: 10px;
+}
+
+.news > div{
+    background-color: aliceblue;
+    border: 1px solid tan;
+}
+
+.home:hover{
+    background-color: red;
+}
+
+.down p{
+    text-align: center;
+}
