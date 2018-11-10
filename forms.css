@@ -1,5 +1,6 @@
 body{
     margin: 30px;
+    width: auto;
 }
 
 h3{
@@ -23,6 +24,7 @@ hr{
 }
 
 .cont{
+    margin: 50px;
     background-color: white;
     display: grid;
     grid-gap: 0.3em;
@@ -129,6 +131,7 @@ hr{
     width: 360px;
     display: block;
     text-align: center;
+    background-color: beige;
 }
 
 .box33{
@@ -307,7 +310,7 @@ input{
 
 .box22 > form{
     display: inline-block;
-   margin-top: 10px;
+   margin-top: 50px;
 }
 
 #indown{
@@ -326,4 +329,12 @@ input{
     padding: 3px;
     border-color: grey;
     text-align: center;
+}
+
+.down p{
+    text-align: center;
+}
+
+.tap{
+    background-color: black; 
 }

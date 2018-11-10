@@ -1,5 +1,5 @@
 body{
-    margin: 30px;
+    margin: 50px;
 }
 
 h3{
@@ -130,7 +130,7 @@ ul li{
     background-color: grey;
     width: 200px;
     height: 30px;
-    opacity: .7;
+    opacity: 0.8;
     text-align: center;
     line-height: 40px;
     display: none;
@@ -250,3 +250,25 @@ h5{
 .tit a{
     color: red;
 }
+.topper > div{
+    display: inline;
+    margin: 4px;
+   
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 2s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .1} 
+    to {opacity: 1}
+  }

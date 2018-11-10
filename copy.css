@@ -1,0 +1,199 @@
+body{
+    margin: 20px;
+    width: 100%;
+}
+
+.copyin{
+    margin: 70px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+}
+
+.copyin > div{
+    margin: 20px;
+}
+
+.h2up{
+    margin-top: 5%;
+    color: brown;
+    font-size: 40px;
+    margin-left: 100px;
+}
+
+.h4up{
+    margin-left: 250px;
+    font-size: 30px;
+    color: darkslategrey;
+  
+}
+
+p{
+    margin: 10px;
+}
+
+hr{
+    margin: 10px;
+}
+
+.heading{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1em;
+    cursor: pointer;
+    padding: 15px;
+    background-color: black;
+    color: whitesmoke;
+   
+}
+
+.heading > div{
+    background-color: blue;
+    text-align: center;
+    padding: 0px;
+    margin: 5px;
+    padding-top: 7px;
+    height: 20px;
+}
+
+.services:hover{
+    background-color: red;
+}
+
+
+ul{
+    background-color: gray;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+ul li{
+    background-color: grey;
+    width: 200px;
+    height: 30px;
+    opacity: .7;
+    text-align: center;
+    line-height: 40px;
+    display: none;
+    padding: 5px;
+}
+
+ul li a{
+    color: blue;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: white;
+}
+
+.services:hover ul li{
+    display: block;
+}
+
+.countries:hover{
+    background-color: red;
+}
+
+.countries:hover ul li{
+    display: block;
+}
+
+.geners:hover{
+    background-color: red;
+}
+
+.geners:hover ul li{
+    display: block;
+}
+
+.about:hover{
+    background-color: red;
+}
+
+.about:hover ul li{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.home:hover{
+    background-color: red;
+}
+
+.box222{
+    margin: 100px;
+}
+
+.box222 > div{
+    margin: 20px;
+}
+
+.box333{
+    width: 1000px;
+    padding-left: 100px;
+}
+
+.reg{
+    color: blue;
+    margin: 10px;
+}
+
+button{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+}
+
+.aicodeimg{
+    height: 200px; 
+    width: 200px;
+    float: right;
+}
+
+.acd{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.acddiv{
+    width: 400px;
+}
+
+.headdiv{
+    width: 1000px;
+}
+
+.wrapper{
+    margin: 20px; 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 170px;
+    grid-gap: 0.5em; 
+  
+}
+
+.displaypic{
+    height: 170px;
+    width: 300px;
+}
+
+.down p{
+    text-align: center;
+}
+
+.tap{
+    background-color: black;
+  padding: 5px;
+}
+
+#wrcl{
+    color: white;
+    margin: 15px;
+}
+
