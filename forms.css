@@ -338,3 +338,71 @@ input{
 .tap{
     background-color: black; 
 }
+
+.topper > div{
+    display: inline;
+    margin: 2px;
+   
+}
+
+.intitle{
+    bottom: 60px;
+    font-size: 13px;
+    position: relative;
+    left: 75px;
+    
+    background-color: lightseagreen;
+    padding: 3px;
+    margin-right: 80px;
+}
+
+
+
+.intype{
+    bottom: 55px;
+    position: relative;
+    font-size: 10px;
+    left: 95px;
+    background-color: lightseagreen;
+    padding: 3px;
+    margin-right: 100px;
+}
+
+.intitle a{
+    color: blue;
+}
+
+.intype a{
+    color: red;
+}
+
+.intype1{
+    bottom: 55px;
+    position: relative;
+    font-size: 10px;
+    left: 95px;
+    background-color: lightseagreen;
+    padding: 3px;
+    margin-right: 100px;
+}
+
+.intype1 a{
+    color: red;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 2s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
