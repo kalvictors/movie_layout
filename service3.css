@@ -1,11 +1,6 @@
 @media(max-width: 360px){
 
-    .body{
-        background-color: black;
-        width: 100%;
-        margin: 30px;
-      }
-      
+    
       .cont{
           width: 100% !important;
           position: static;
@@ -27,35 +22,33 @@
           max-width: 100%;
       }
   
-      .wrapper {
-          max-width: 98%;
-          grid-gap: 0.5em; 
-          
-      }
-  
-      .wrapper > div{
-          width: 50px;
-         background-color: bisque;
-         left: 60%;
-         margin-right: auto;
-          margin-left: auto;
-      }
-  
-      .topper{
-          grid-gap: 0.5em;
-          width: 100%;
-          margin: 0px; 
-          grid-template-columns: repeat(8, 1fr);
-          grid-auto-rows: 20px;
-      }
       
-      .topper > div{
-        margin-right: auto;
-        margin-left: auto;
-          max-width: 100%;
+
+      .wrapper {
+       display: none;
+        
       }
-     
+
+
+      .box2{
+        height: 50px;
+        background-color: grey;
+    }
+
+    .box2 > div{
+        margin-left: 170px;
+        margin-right: 400px;
+        padding-left: 10px;
+    }
+      
+      .topper > div img{
+            height: 70px;
+            width: 47px;
+      }
+
+      
       .cont{
+          grid-gap: 0%;
           justify-content: center;
           width: 100%;
           grid-auto-rows: (100px, auto);
@@ -67,25 +60,52 @@
           'box4'
           'box5'
       }
+
+      .box1{
+          margin: 0%;
+      }
+
+
       .heading {
-        grid-gap: 0em;
+        display: block;
+          grid-gap: 0em;
           cursor: pointer;
+         height: 50px;
       }
   
       .heading > div{
-          width: 42px;
-          height: 20px;
-          text-align: center;
-          right: 40px;
-          margin-right: auto;
-          margin-left: auto;
+         width: 400px;
+        margin-left: 1000px;
+        margin-right: 300px;
+         float: right;
       }
   
       .heading > div a{
-          font-size: 7px;
-  
+          font-size: 10px;
+          text-align: left;
+      }
+
+      .heading img{
+        margin-left: 170px;
       }
      
+      .onvd h3{
+        margin-left: 80px;
+      }
+
+      .onvd{
+        margin-left: 190px;
+        margin-right: 190px;
+        padding-left: 15px;
+      }
+
+      #defin{
+       font-size: 15px;
+        margin-left: 1px;
+        margin-right: 20px;
+        padding-left: 15px;
+      }
+
       .intitle{
           font-size: 2px;
       }
@@ -120,40 +140,111 @@
   
       
       .indisplay{
-          display: grid;
-          grid-template-columns: repeat(4, 1fr);
-          grid-auto-rows: (100px, auto);
-          grid-gap: 1em;
-          word-wrap: break-word;
-      }
-  
-      .indisplay > div{
-          /* height: 150px; */
-          font-size: 0px;
-          margin-right: auto;
-          margin-left: auto;
          
-      }
-  
-      
-      .box2{
-          height: 110px;
-      }
+         margin-right: 50%;
+         left: 10%;
+       /* grid-template-columns: repeat(2, 1fr);
+       grid-gap: 0em; */
+    }
+    
+    .indisplay > div{
+         
+        display: none;
+    }
+
   
       .displaypic{
           height: 70px;
           width: 100%;
       }
-  
-      #indown{
-         
-          font-size: 0px;
-      }
+
       
       #scrow{
-          font-size: 5px;
-          text-align: center;
+          font-size: 15px;
+          padding: 5px;
+         margin-left: 250px;
+         margin-right: 250px;
       }
+     
+      .news > div video{
+        margin-left: 40px;
+      }
+
+      .news > div img{
+        margin-left: 40px;
+      }
+/* 
+      .news p{
+        margin-left: 300px;
+        margin-right: 200px;
+        padding-left: 15px;
+      } */
+
+    .box3{
+        justify-content: center; 
+        
+    }
+
+    .box3 h4{
+        margin-left: 190px;
+    }
+
+    .box3 p{
+       
+        margin-left: 170px;
+        margin-right: 185px;
+        padding-left: 15px;
+    }
+
+    
+    .box5 h3{
+       margin-left: 300px;
+    } 
+
+    .box4 p{
+       
+       margin-left: 110px;
+       margin-right: 110px;
+       padding-left: 15px;
+    }
+
+    #lstp{
+        font-size: 14px;
+        margin-left: 170px;
+        margin-right: 185px;
+        padding-left: 15px;
+
+    }
+
+    .box4 h3{
+       
+        margin-left: 300px;
+     
+       
+    }
+
+
+    #adv{
+        margin-left: 200px;
+    }
+
+    #comp{
+        margin-left: 200px;
+    }
+
+    
+    
+    #yourceleb{
+        margin-left: 200px;
+       margin-right: 260px;
+       font-size: 12px;
+    }
+
+    .box4 button{
+        margin-left: 250px;
+       margin-right: 330px;
+      
+    }
 }
 
 @media(max-width: 580px){
@@ -269,12 +360,11 @@
         grid-template-columns: repeat(4, 1fr);
         grid-auto-rows: (100px, auto);
         grid-gap: 1em;
-        word-wrap: break-word;
+ 
     }
 
     .indisplay > div{
         /* height: 150px; */
-        font-size: 0px;
         margin-right: 15%;
        
     }
@@ -1167,6 +1257,7 @@
       margin: 30px;
     }
     
+   
     .cont{
         width: 100% !important;
         position: static;
@@ -1232,14 +1323,19 @@
         'box5'
     }
     .heading {
+     
         cursor: pointer;
+        /* display: block; */
+
     }
 
     .heading > div{
        font-size: 13px;
         text-align: center;
         margin: 0%;
+     
     }
+
    
     .intitle{
         font-size: 3px;
@@ -1248,18 +1344,14 @@
     .intype1{
         
         font-size: 3px;
+        font-size: 20px;
+    }
+
+    input{
+        margin: 0px, 40px, 0px;
     }
     
-
-    /* .menu{
-        width: 50%;
-       margin-left: 500px;
-    } */
-
-    .active{
-        display: block;
-    }
-
+    
     ul{
         width: 100%;
        
