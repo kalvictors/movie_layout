@@ -14,13 +14,17 @@
 
 <body>
     <div class="cont">
-       
+
         <div class="box1 tap">
-                 
-                    
+            <div class="toggle">
+                <i class="fa fa-bars menu" aria-hidden="true"></i>
+            </div>
+
+
+
             <div class="heading">
 
-                    <img src="try.png" width="70px" height="40px">
+                <img src="try.png" width="70px" height="40px">
 
                 <div class="rol home"><a href="tryout.html"><b>HOME</b></a></div>
                 <div class="rol services"><a><b>SERVICES</b></a>
@@ -357,15 +361,21 @@
                     <hr>
                     <img src="pearl1.jpg" width="280px" height="100px" id="adv"><br>
 
-                    <p id="lstp">
+                    <p id="dstp">
                         It is official; there is a new pay-TV channel dedicated to promote Ugandan film and arts. Pearl
                         Magic TV, which airs on Channel 161 on DStv and Channel 304 on GOtv, rolled off its broadcast
                         on Monday at 4pm in the presence of several industry stakeholders.<br>
-                        DStv has recently rolled out a channel to promote locally made entertainment content. Pearl Magic channel will provide programs like music, reality shows, films and telenovelas.The Marketing Manger for MultiChoice Uganda, Albert Nga stated that he was thrilled about the development which will promote Ugandan talent.
+                        DStv has recently rolled out a channel to promote locally made entertainment content. Pearl
+                        Magic channel will provide programs like music, reality shows, films and telenovelas.The
+                        Marketing Manger for MultiChoice Uganda, Albert Nga stated that he was thrilled about the
+                        development which will promote Ugandan talent.
 
-                        Nga further declared, ‘’This channel will include everything that is Ugandan. It will showcase what we are made of and are able to produce.’’
-                        
-                        On the other hand, the head of the Association of Producers in Uganda, stated, ‘’This is something we have waited for years. The industry applauds MultiChoice for such an opportunity they have extended to us.’’
+                        Nga further declared, ‘’This channel will include everything that is Ugandan. It will showcase
+                        what we are made of and are able to produce.’’
+
+                        On the other hand, the head of the Association of Producers in Uganda, stated, ‘’This is
+                        something we have waited for years. The industry applauds MultiChoice for such an opportunity
+                        they have extended to us.’’
 
                     </p>
                 </div>
@@ -375,17 +385,39 @@
                     <video controls width="280" height="230" poster="stake3.jpg">
                         <source src="kaligi1.mp4" type="video/mp4">
                     </video>
+                    <p id="dstp">
+                        Acting in Kaligi. A ugandan new company branded as BRAYS VIDEOGRAPHY showcases out its work.
+                        What will you need to know about the production crew?
+                        Catch the latest Movies, Music, Books, Entertainment News, Celebrity Gossip, Business News, Fashion and
+                        Sport on Zal Point, bringing you the best in Entertainment. ... the latest breaking news and videos
+                    </p>
                 </div>
                 <div>
                     <h4 id="yourceleb">FILM CLASSES KICK OF IN FILM CLUB UGANDA</h4>
                     <hr>
                     <img src="shoot2.jpg" class="newspic">
+                    <p id="dstp">
+                        Acting as Pingu. Ugandan company branded as PINGU showcases her tarlent. What do you need to
+                        know about her? UGANDAN COMEDY SKITS WITH A LEADING YOUNG ACTRESS NAMATOVU GIFT AS "PINGU",
+                        CREATED BY T.WEST TTABU WASSWA STEPHEN. CALL +256 702780250, +256 781139881,
+                        https://www.facebook.com/wesekerePINGU/ ,wesekere@gmail.com, whatsapp +256753416838
+
+                    </p>
                 </div>
                 <div>
-                    <h4 id="yourceleb">GONE SO SOON <p >Actor Kitambirike is no more</p>
+                    <h4 id="yourceleb">GONE SO SOON <p>Actor Kitambirike is no more</p>
                     </h4>
                     <hr>
                     <img src="news1.jpg" class="newspic">
+                    <p id="dstp">
+                        Support artists have been confirmed as: Puce Mary, Golem Mecanique, Robin Fox presents Single
+                        Origin, and Lingua Ignota – Please check SUNN O))) listings for full details.
+
+                        At this time no other details of dates have been announced; aside from a couple of dates in
+                        Germany, Austria, Holand and Czechoslovakia, this is essentially a French tour; there are
+                        certainly no confirmed UK dates; hopefully the announcements and description that this is the
+                        bands ‘first’ European tour will see dates in the UK etc confirmed.
+                    </p>
                 </div>
                 <div>
                     <h4 id="yourceleb">COMEDY FOR YOU</h4>
@@ -393,11 +425,12 @@
                     <video controls width="280" height="230" poster="ug1.jpg">
                         <source src="comed1.mp4" type="video/mp4">
                     </video><br>
+
                 </div>
 
                 <button style="background-color: springgreen; color: blue; border: solid 1px white; padding: 5px;"><a
                         href="login.html"><b>JOIN US</b></a></button><br>
-                            
+
                 <img src="try.png" width="280px" height="80px" id="comp"><br>
             </div>
             <hr>
@@ -421,7 +454,15 @@
 
 
     <script src="tryouts.js"> </script>
-    
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.menu').click(function () {
+                $('.heading').toggleClass('active')
+            }
+            )
+        })
+    </script>
 </body>
 
 </html>

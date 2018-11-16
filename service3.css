@@ -22,8 +22,6 @@
           max-width: 100%;
       }
   
-      
-
       .wrapper {
        display: none;
         
@@ -36,14 +34,14 @@
     }
 
     .box2 > div{
-        margin-left: 170px;
-        margin-right: 400px;
+        margin-left: 165px;
+        margin-right: 445px;
         padding-left: 10px;
     }
       
       .topper > div img{
-            height: 70px;
-            width: 47px;
+            height: 78px;
+            width: 49px;
       }
 
       
@@ -66,27 +64,8 @@
       }
 
 
-      .heading {
-        display: block;
-          grid-gap: 0em;
-          cursor: pointer;
-         height: 50px;
-      }
-  
-      .heading > div{
-         width: 400px;
-        margin-left: 1000px;
-        margin-right: 300px;
-         float: right;
-      }
-  
-      .heading > div a{
-          font-size: 10px;
-          text-align: left;
-      }
-
-      .heading img{
-        margin-left: 170px;
+      .heading{
+          display: none;
       }
      
       .onvd h3{
@@ -113,16 +92,7 @@
       .intype1{
           font-size: 2px;
       }
-      
-  
-      /* .menu{
-          width: 50%;
-         margin-left: 500px;
-      } */
-  
-      /* .active{
-          display: block;
-      } */
+    
   
       ul{
           width: 100%;
@@ -142,9 +112,7 @@
       .indisplay{
          
          margin-right: 50%;
-         left: 10%;
-       /* grid-template-columns: repeat(2, 1fr);
-       grid-gap: 0em; */
+     
     }
     
     .indisplay > div{
@@ -165,7 +133,7 @@
          margin-left: 250px;
          margin-right: 250px;
       }
-     
+
       .news > div video{
         margin-left: 40px;
       }
@@ -173,12 +141,6 @@
       .news > div img{
         margin-left: 40px;
       }
-/* 
-      .news p{
-        margin-left: 300px;
-        margin-right: 200px;
-        padding-left: 15px;
-      } */
 
     .box3{
         justify-content: center; 
@@ -212,6 +174,22 @@
         font-size: 14px;
         margin-left: 170px;
         margin-right: 185px;
+        padding-left: 15px;
+
+    }
+
+    #uptp{
+        font-size: 16px;
+        margin-left: 160px;
+        margin-right: 220px;
+        padding-left: 15px;
+
+    }
+
+    #dstp{
+        font-size: 15px;
+        margin-left: 160px;
+        margin-right: 245px;
         padding-left: 15px;
 
     }

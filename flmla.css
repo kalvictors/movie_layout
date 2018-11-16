@@ -349,4 +349,72 @@ h5{
     to {opacity: 1}
   } */
 
-  
+  .toggle{
+    width: 100%;
+    background-color: black;
+    text-align: right ;
+    box-sizing: border-box;
+    color: white;
+    font-size: 30px;
+    display: none;
+    padding: 3px;
+}
+
+@media (max-width: 360px){
+    .toggle{
+        display: block;
+    }
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .heading{
+        position: absolute;
+        width: 100%;
+        display: none;
+        margin-left: 170px;
+    }
+
+    .heading img{
+        display: none;
+    }
+
+    .heading > div{
+      
+        display: block;
+        text-align: center;
+       
+    }
+
+    .heading > div a{
+        padding: 5px;
+        float: left;
+        margin-left: 150px;
+        font-size: 15px;
+    }
+
+    .active{
+        display: block;
+    }
+
+    .about .geners .services .countries .home{
+        display: none;
+    }
+
+    .menu{
+       margin-right: 200px;
+    }
+
+    ul{
+        position: absolute;
+        margin-left: 60px;
+    }
+
+   
+    li:hover{
+        margin-left: 20px;
+    }
+}
