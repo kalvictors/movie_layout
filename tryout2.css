@@ -1,0 +1,582 @@
+@media(max-width: 411px){
+    
+    .cont{
+        width: 100% !important;
+        position: static;
+        overflow: hidden;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    .tap{
+        margin-left:auto;
+        margin-right:auto;
+        width:100%;
+     
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+   .wrapper{
+    padding-left: 95px;
+    padding-right: 80px;
+   }
+
+   
+    .wrapper img{
+        height: 50px;
+        width: 100%;
+      
+    }
+
+    .box2{
+     padding-left: 80px;
+     padding-right: 100px;
+      height: 50px;
+      background-color: grey;
+  }
+
+  .box2 > div{
+      margin-left: 40px;
+      margin-right: 440px;
+      padding-left: 10px;
+  }
+    
+    .topper > div img{
+          height: 78px;
+          width: 60px;
+    }
+
+    
+    .cont{
+        grid-gap: 0%;
+        justify-content: center;
+        width: 100%;
+        grid-auto-rows: (100px, auto);
+        grid-template-columns:1fr;
+        grid-template-areas:
+        'box1'
+        'box2'
+        'box3 '
+        'box4'
+        'box5'
+    }
+
+    .box1{
+        margin: 0%;
+    }
+
+
+    .heading{
+        display: none;
+    }
+   
+    .onvd h3{
+      margin-left: 80px;
+    }
+
+    .onvd{
+      margin-left: 120px;
+      margin-right: 120px;
+      padding-left: 15px;
+    }
+
+    #defin{
+     font-size: 20px;
+      margin-left: 1px;
+      margin-right: 20px;
+      padding-left: 5px;
+    }
+
+    .intitle{
+        font-size: 20px;
+        float: left;
+    }
+
+    .intype1{
+        display: none;
+        font-size: 2px;
+    }
+  
+
+    ul{
+        width: 100%;
+       
+    }
+
+    ul li{
+        text-align: center;
+    }
+    
+
+    video{
+        max-width: 100%;
+    }
+
+    
+    .indisplay{
+       
+       margin-right: 60%;
+   
+  }
+  
+  .indisplay > div{
+    display: none;
+  } 
+  
+
+  
+    .news > div video{
+      margin-left: -20px;
+    }
+
+    .news > div img{
+        margin-left: -20px;
+    }
+
+  .box3{
+      justify-content: center; 
+      
+  }
+
+  .box3 h4{
+      margin-left: 120px;
+      font-size: 20px;
+  }
+
+  .box3 p{
+     font-size: 17px;
+      margin-left: 100px;
+      margin-right: 120px;
+      padding-left: 15px;
+  }
+
+  
+  .box5 h3{
+     margin-left: 250px;
+  } 
+
+  .box5 p{
+      font-size: 20px;
+  }
+
+  /* .box4 p{
+     
+     margin-left: 110px;
+     margin-right: 120px;
+     padding-left: 15px;
+  } */
+
+  #lstp{
+      font-size: 20px;
+      margin-left: 100px;
+      margin-right: 110px;
+      padding-left: 15px;
+
+  }
+
+  #uptp{
+      font-size: 16px;
+      margin-left: 120px;
+      margin-right: 200px;
+      padding-left: 15px;
+
+  }
+
+  #dstp{
+      color: white;
+      font-size: 17px;
+      margin-left: 90px;
+      margin-right: 110px;
+      padding-left: 15px;
+
+  }
+
+  .box4 h3{
+     
+      margin-left: 230px;
+  }
+
+
+  #adv{
+      margin-left: 135px;
+  }
+
+  #comp{
+      margin-left: 150px;
+  }
+
+  
+  
+  #yourceleb{
+      margin-left: 100px;
+     margin-right: 100px;
+     font-size: 17px;
+  }
+
+  .clbm{
+      font-size: 17px;
+  }
+
+  .box4 button{
+      margin-left: 150px;
+     margin-right: 150px;
+    
+  }
+
+  .toggle{
+      display: block;
+  }
+
+ 
+  .heading{
+      position: absolute;
+      width: 100%;
+      display: none;
+      margin-left: 109px;
+  }
+
+  .heading img{
+      display: none;
+  }
+
+  .heading > div{
+    
+      display: block;
+      text-align: center;
+     
+  }
+
+  .heading > div a{
+      padding: 5px;
+      float: left;
+      margin-left: 150px;
+      font-size: 15px;
+  }
+
+  .active{
+      display: block;
+  }
+
+  .about .geners .services .countries .home{
+      display: none;
+  }
+
+  .menu{
+     margin-right: 200px;
+  }
+
+  ul{
+      position: absolute;
+      margin-left: 50px;
+  }
+
+ 
+  li:hover{
+      margin-left: 30px;
+  }
+}
+
+
+@media(max-width: 360px){
+
+    
+    .cont{
+        width: 100% !important;
+        position: static;
+        overflow: hidden;
+    }
+
+    p{
+        font-size: 5px;
+    }
+
+    .tap{
+        margin-left:auto;
+        margin-right:auto;
+        width:100%;
+     
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .wrapper{
+        grid-auto-rows: 60px;
+        padding-left: 285px;
+        padding-right: 285px;
+       }
+
+       .wrapper > div{
+          height: 60px;
+       } 
+    
+       
+        .wrapper img{
+            height: 60px;
+            width: 100%;
+          
+        }
+
+    .box2{
+            padding-left: 80px;
+            padding-right: 150px;
+             height: 100px;
+             background-color: grey;
+         }
+
+    .box2 > div{
+        margin-left: 200px;
+        margin-right: 177px;
+        padding-left: 10px;
+    }
+        
+        .topper > div img{
+            height: 78px;
+            width: 49px;
+        }
+
+    
+    .cont{
+       
+        grid-gap: 0%;
+        justify-content: center;
+        width: 100%;
+        grid-auto-rows: (100px, auto);
+        grid-template-columns:1fr;
+        grid-template-areas:
+        'box1'
+        'box2'
+        'box3 '
+        'box4'
+        'box5'
+    }
+
+    .box1{
+        margin: 0%;
+    }
+
+
+    .heading{
+        display: none;
+    }
+   
+    .onvd h3{
+      margin-left: 80px;
+    }
+
+    .onvd{
+      margin-left: 180px;
+      margin-right: 180px;
+      padding-left: 15px;
+    }
+
+    #defin{
+     font-size: 17px;
+      margin-left: 1px;
+      margin-right: 15px;
+      padding-left: 15px;
+    }
+
+    .intitle{
+        display: none;
+        font-size: 2px;
+    }
+
+    .intype1{
+        display: none;
+        font-size: 2px;
+    }
+
+    .intype{
+        display: none;
+    }
+  
+
+    ul{
+        width: 100%;
+       
+    }
+
+    ul li{
+        text-align: center;
+    }
+    
+
+    video{
+        max-width: 100%;
+    }
+
+   
+  .indisplay > div{
+       
+      display: none;
+  }
+
+
+    .displaypic{
+        height: 100px;
+        width: 100%;
+    }
+
+    .news > div{
+        background-color: black;
+    }
+  
+    .news > div video{
+      margin-left: 286px;
+    }
+
+    .news > div img{
+      margin-left: 286px;
+    }
+
+  .box3{
+      justify-content: center; 
+      
+  }
+
+  .box3 h4{
+      margin-left: 290px;
+  }
+
+  .box3 p{
+     
+    margin-left: 280px;
+    margin-right: 290px;
+      padding-left: 15px;
+  }
+
+  
+  .box5 h3{
+     margin-left: 385px;
+     font-size: 18px;
+  } 
+
+  .box5 p{
+      font-size: 17px;
+  }
+
+  .tit{
+    margin-left: 287px;
+    margin-right: 287px;
+  }
+
+
+  
+  #lstp{
+      font-size: 14px;
+      margin-left: 310px;
+      margin-right: 320px;
+      padding-left: 15px;
+
+  }
+
+  #uptp{
+      font-size: 16px;
+      margin-left: 160px;
+      margin-right: 220px;
+      padding-left: 15px;
+
+  }
+
+  #dstp{
+      color: white;
+      font-size: 16px;
+      margin-left: 300px;
+      margin-right: 310px;
+      padding-left: 15px;
+
+  }
+
+  .clbm{
+    margin-left: 90px;
+    margin-right: 90px;
+      font-size: 14px;
+  }
+
+  .box4 h3{
+      margin-left: 400px;
+  }
+
+
+  #adv{
+      margin-left: 100px;
+  }
+
+  #comp{
+      margin-left: 290px;
+      margin-right: 380px;
+  }
+
+  
+  
+  #yourceleb{
+      margin-left: 300px;
+     margin-right: 300px;
+     font-size: 12px;
+  }
+
+  .box4 button{
+      margin-left: 400px;
+     margin-right: 410px;
+    
+  }
+
+  .toggle{
+      display: block;
+ 
+      padding-right: 5px;
+  }
+
+  .heading{
+      position: absolute;
+      width: 75.6%;
+      display: none;
+      margin-left: 357px;
+  }
+
+  .heading img{
+      display: none;
+  }
+
+  .heading > div{
+      display: block;
+      text-align: center;
+    
+  }
+
+  .heading > div a{
+      padding: 5px;
+      float: left;
+      margin-left: 100px;
+      font-size: 15px;
+  }
+
+  .active{
+      display: block;
+  }
+
+  .about .geners .services .countries .home{
+      display: none;
+  }
+
+  .menu{
+     margin-right: 200px;
+  }
+
+  ul{
+      position: absolute;
+      margin-left: 60px;
+  }
+
+ 
+  li:hover{
+      margin-left: 20px;
+  }
+}
