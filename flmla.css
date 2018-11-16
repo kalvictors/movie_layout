@@ -1,11 +1,5 @@
-/* *{
-    overflow: hidden;
-} */
-
 body{
-    /* width: 100%;
-    height: 100%;
-    margin: 30px; */
+    margin: 10px;
 }
 
 h3{
@@ -32,8 +26,8 @@ hr{
 }
 
 .cont{
-    padding: 0%;
-    margin: 0%;
+  
+    margin: 3px;
     background-color: white;
     display: grid;
     grid-gap: 0.3em;
@@ -358,63 +352,4 @@ h5{
     font-size: 30px;
     display: none;
     padding: 3px;
-}
-
-@media (max-width: 360px){
-    .toggle{
-        display: block;
-    }
-
-    body{
-        margin: 0;
-        padding: 0;
-    }
-
-
-    .heading{
-        position: absolute;
-        width: 100%;
-        display: none;
-        margin-left: 170px;
-    }
-
-    .heading img{
-        display: none;
-    }
-
-    .heading > div{
-      
-        display: block;
-        text-align: center;
-       
-    }
-
-    .heading > div a{
-        padding: 5px;
-        float: left;
-        margin-left: 150px;
-        font-size: 15px;
-    }
-
-    .active{
-        display: block;
-    }
-
-    .about .geners .services .countries .home{
-        display: none;
-    }
-
-    .menu{
-       margin-right: 200px;
-    }
-
-    ul{
-        position: absolute;
-        margin-left: 60px;
-    }
-
-   
-    li:hover{
-        margin-left: 20px;
-    }
 }
