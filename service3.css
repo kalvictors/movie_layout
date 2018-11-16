@@ -126,14 +126,7 @@
           width: 100%;
       }
 
-      
-      #scrow{
-          font-size: 15px;
-          padding: 5px;
-         margin-left: 250px;
-         margin-right: 250px;
-      }
-
+    
       .news > div video{
         margin-left: 40px;
       }
@@ -187,6 +180,7 @@
     }
 
     #dstp{
+        color: white;
         font-size: 15px;
         margin-left: 160px;
         margin-right: 245px;
