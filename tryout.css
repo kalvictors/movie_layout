@@ -1,7 +1,8 @@
 
 
 body{
-    margin: 30px;
+    margin: 0px;
+    padding: 0px;
 }
 
 h3{
@@ -28,6 +29,7 @@ hr{
 }
 
 .cont{
+    margin: 6px;
     background-color: white;
     display: grid;
     grid-gap: 0.3em;
@@ -48,7 +50,7 @@ hr{
 
 .box2{
     grid-area: box2;
-    height: 250px;
+    height: 260px;
 }
 
 .box3{
@@ -59,7 +61,7 @@ hr{
 
 .box4{
     grid-area: box4;
-    width: 300px;
+    width: 340px;
 }
 
 .box5{
@@ -94,7 +96,7 @@ hr{
     margin: 10px; 
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-auto-rows: 180px;
+    grid-auto-rows: 200px;
     grid-gap: 1em; 
     border: 1px solid black;
 }
@@ -108,9 +110,8 @@ hr{
 
 .heading{
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 1em;
-    cursor: pointer;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 0.5em;
     padding: 15px;
     background-color: black;
     color: whitesmoke;
@@ -118,11 +119,10 @@ hr{
 }
 
 .heading > div{
-    background-color: blue;
     text-align: center;
     padding: 0px;
     margin: 5px;
-    padding-top: 7px;
+    padding-top: 2px;
     height: 20px;
 }
 
@@ -136,6 +136,31 @@ ul{
     margin: 0%;
     padding: 0%;
     list-style: none;
+}
+
+.countries{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.home{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.services{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.geners{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.about{
+    background-color: blue;
+    cursor: pointer;
 }
 
 ul li{
@@ -204,6 +229,14 @@ a{
     border: 1px solid tan;
 }
 
+.news > div video{
+    margin-left: 20px;
+  }
+
+  .news > div img{
+    margin-left: 20px;
+  }
+
 .home:hover{
     background-color: red;
 }
@@ -222,7 +255,7 @@ a{
     height: 230px;
 }
 
-#scrow{
+#dstp{
     color: black;
     margin: 10px;
 }
@@ -264,26 +297,21 @@ h5{
 }
 
 .intitle{
-    bottom: 60px;
     font-size: 13px;
     position: relative;
-    left: 75px;
-    
     background-color: lightseagreen;
     padding: 3px;
-    margin-right: 80px;
-}
+} 
 
 
 
 .intype{
-    bottom: 55px;
+    bottom: 38px;
     position: relative;
     font-size: 10px;
-    left: 95px;
     background-color: lightseagreen;
     padding: 3px;
-    margin-right: 100px;
+    margin-left: 100px;
 }
 
 .intitle a{
@@ -295,13 +323,12 @@ h5{
 }
 
 .intype1{
-    bottom: 55px;
+    bottom: 38px;
     position: relative;
     font-size: 10px;
-    left: 95px;
     background-color: lightseagreen;
     padding: 3px;
-    margin-right: 100px;
+    margin-left: 100px;
 }
 
 .intype1 a{
@@ -334,4 +361,26 @@ h5{
     font-size: 30px;
     display: none;
     padding: 3px;
+}
+
+.container{
+    align-self: flex-start;
+   
+}
+
+/* .glyphicon-search{
+    font-size: 20px;
+} */
+
+.btn-default{
+    background: blue;
+    color: white;
+    font-size: 2px;
+    height: 23px;
+}
+
+.form-control{
+    font-size: 11px;
+    height: 20px;
+
 }
