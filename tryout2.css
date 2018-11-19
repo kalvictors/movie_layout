@@ -584,9 +584,9 @@
     
   }
 
-  .toggle{
+  .nav{
       display: block;
-      width: 73%;
+      width: 60%;
   }
 
   .heading{
@@ -619,7 +619,19 @@
       display: none;
   }
 
-  .menu{
+  .item{
+    text-align: center;
+    margin-left: 860px;
+}
+
+.nav ul li{
+    
+    margin-top: 55px;
+    height: 20px;
+    font-size: 15px;
+ 
+}
+  /* .menu{
      margin-right: 200px;
   }
 
@@ -640,6 +652,6 @@ li:hover{
 }
 
 .heading .container{
-    display: none;
+    display: none; */
 }
 }
