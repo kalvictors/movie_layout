@@ -29,9 +29,9 @@
     }
 
     .wrapper{
-        grid-auto-rows: 110px;
-        margin-left: 505px;
-        margin-right: 505px;
+        grid-auto-rows: 130px;
+        margin-left: 387px;
+        margin-right: 390px;
        }
 
        .wrapper > div{
@@ -40,27 +40,27 @@
     
        
         .wrapper img{
-            height: 75px;
+            height: 100px;
             width: 100%;
           
         }
 
     .box2{
-            padding-left: 290px;
+            padding-left: 287px;
             padding-right: 150px;
              height: 100px;
              background-color: grey;
          }
 
     .box2 > div{
-        margin-left: 200px;
-        margin-right: 177px;
+        margin-left: 210px;
+        margin-right: 140px;
         padding-left: 10px;
     }
         
         .topper > div img{
-            height: 80px;
-            width: 50px;
+            height: 90px;
+            width: 70px;
         }
 
     
@@ -106,11 +106,11 @@
     }
 
     .intitle{
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .intype1{
-        font-size: 11px;
+        font-size: 14px;
         display: none;
     }
 
@@ -154,12 +154,12 @@
   
     .news > div video{
         padding: 3px;
-      margin-left: 560px;
+      margin-left: 570px;
     }
 
     .news > div img{
         padding: 3px;
-      margin-left: 560px;
+      margin-left: 570px;
     }
 
   /* .box3{
@@ -170,20 +170,20 @@
 
 
   .box3 h4{
-      margin-left: 510px;
+      margin-left: 520px;
       font-size: 25px;
   }
 
   .box3 p{
      font-size: 20px;
-    margin-left: 493px;
-    margin-right: 505px;
+    margin-left: 500px;
+    margin-right: 510px;
     padding-left: 15px;
   }
 
   
   .box5 h3{
-     margin-left: 660px;
+     margin-left: 670px;
      font-size: 18px;
   } 
 
@@ -194,15 +194,15 @@
   .tit{
       font-size: 20px;
       padding: 7px;
-    margin-left: 505px;
-    margin-right: 505px;
+    margin-left: 520px;
+    margin-right: 520px;
   }
 
 
   
   #lstp{
       font-size: 14px;
-      margin-left: 495px;
+      margin-left: 510px;
       margin-right: 510px;
       padding-left: 15px;
 
@@ -219,8 +219,8 @@
   #dstp{
       color: white;
       font-size: 16px;
-      margin-left: 480px;
-      margin-right: 500px;
+      margin-left: 490px;
+      margin-right: 510px;
       padding-left: 20px;
 
   }
@@ -243,7 +243,7 @@
 
   #comp{
       margin-left: 565px;
-      margin-right: 380px;
+      margin-right: 410px;
       height: 140px;
   }
 
@@ -261,65 +261,60 @@
     
   }
 
-  .toggle{
-      display: block;
-      width: 77%;
-  }
+  .nav{
+    margin-left: 45px;
+    display: block;
+    width: 60%;
+}
 
-  .heading{
-      position: absolute;
-      display: none;
-      margin-left: 711px;
-  }
-
-  .heading img{
-      display: none;
-  }
-
-  .heading > div{
-      display: block;
-      text-align: center;
+.nav img{
+    margin-right: 300px;
     
-  }
+}
 
-  .heading > div a{
-      padding: 5px;
-      float: left;
-      margin-left: 10px;
-      font-size: 15px;
-  }
+.heading{
+    position: absolute;
+    display: none;
+    margin-left: 800px;
+}
 
-  .heading .container{
+.heading img{
     display: none;
 }
 
-  .active{
-      display: block;
-  }
+.heading > div{
+    display: block;
+    text-align: center;
+  
+}
 
-  .about .geners .services .countries .home{
-      display: none;
-  }
+.heading > div a{
+  padding: 5px;
+  float: left;
+  font-size: 13px;
+}
 
-  .menu{
-     margin-right: 200px;
-  }
+.active{
+    display: block;
+}
 
-  ul{
-      position: absolute;
-  }
+.about .geners .services .countries .home{
+    display: none;
+}
 
-  ul li{
-      width: 5px;
-  }
+.item{
+  text-align: center;
+  margin-left: 680px;
+}
 
-  ul li a{
-       position: absolute;
-  }
+.nav ul li{
+  
+  margin-top: 55px;
+  height: 20px;
+  font-size: 15px;
  
-  li:hover{
-    padding-right: 140px;
-  }
+}
+
 
 }
 
@@ -355,10 +350,10 @@
     }
 
     .wrapper{
-        grid-auto-rows: 95px;
+        grid-auto-rows: 120px;
        
-        margin-left: 635px;
-        margin-right: 635px;
+        margin-left: 275px;
+        margin-right: 48px;
        }
 
        .wrapper > div{
@@ -367,27 +362,27 @@
     
        
         .wrapper img{
-            height: 55px;
+            height: 90px;
             width: 100%;
           
         }
 
     .box2{
-            padding-left: 414px;
-            padding-right: 150px;
+            padding-left: 194px;
+            padding-right: 100px;
              height: 100px;
              background-color: grey;
          }
 
     .box2 > div{
-        margin-left: 200px;
+        margin-left: 64px;
         margin-right: 177px;
         padding-left: 10px;
     }
         
         .topper > div img{
-            height: 78px;
-            width: 50px;
+            height: 85px;
+            width: 60px;
         }
 
     
@@ -480,12 +475,12 @@
   
     .news > div video{
         padding: 3px;
-      margin-left: 650px;
+      margin-left: 290px;
     }
 
     .news > div img{
         padding: 3px;
-      margin-left: 650px;
+      margin-left: 290px;
     }
 
   /* .box3{
@@ -496,19 +491,19 @@
 
 
   .box3 h4{
-      margin-left: 628px;
+      margin-left: 285px;
   }
 
   .box3 p{
      
-    margin-left: 615px;
-    margin-right: 622px;
+    margin-left: 265px;
+    margin-right: 270px;
       padding-left: 15px;
   }
 
   
   .box5 h3{
-     margin-left: 750px;
+     margin-left: 400px;
      font-size: 18px;
   } 
 
@@ -519,16 +514,16 @@
   .tit{
     font-size: 15px;
     padding: 5px;
-    margin-left: 625px;
-    margin-right: 625px;
+    margin-left: 278px;
+    margin-right: 278px;
   }
 
 
   
   #lstp{
       font-size: 14px;
-      margin-left: 613px;
-      margin-right: 623px;
+      margin-left: 260px;
+      margin-right: 280px;
       padding-left: 15px;
 
   }
@@ -544,8 +539,8 @@
   #dstp{
       color: white;
       font-size: 16px;
-      margin-left: 605px;
-      margin-right: 620px;
+      margin-left: 250px;
+      margin-right: 270px;
       padding-left: 15px;
 
   }
@@ -557,7 +552,7 @@
   }
 
   .box4 h3{
-      margin-left: 725px;
+      margin-left: 380px;
   }
 
 
@@ -566,7 +561,7 @@
   }
 
   #comp{
-      margin-left: 650px;
+      margin-left: 290px;
       margin-right: 380px;
   }
 
@@ -579,15 +574,21 @@
   }
 
   .box4 button{
-      margin-left: 700px;
-     margin-right: 700px;
+      margin-left: 300px;
+     margin-right: 300px;
     
   }
 
   .nav{
+      margin-left: 75px;
       display: block;
       width: 60%;
   }
+
+  .nav img{
+    margin-right: 265px;
+    
+}
 
   .heading{
       position: absolute;
@@ -621,13 +622,11 @@
 
   .item{
     text-align: center;
-    margin-left: 860px;
+    margin-left: 400px;
 }
 
 .nav ul li{
-    
-    margin-top: 55px;
-    height: 20px;
+    display: block;
     font-size: 15px;
  
 }
